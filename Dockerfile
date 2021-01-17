@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
 	gifsicle libgif-dev \
 	&& rm -rf /var/lib/apt/lists/*
 
+RUN pip install -U setuptools
 RUN pip install thumbor
 
 EXPOSE 8880
