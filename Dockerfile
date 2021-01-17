@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.13
+FROM phusion/baseimage:18.04-1.0.0
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
